@@ -1,5 +1,5 @@
 {
-  "name": "API-Pipedrive",
+  "name": "apipipedrive",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -17,6 +17,7 @@
   },
   "scripts": {
     "dev": "ts-node-dev --respawn --transpile-only app.ts",
-    "start": "node app.js"
+    "start": "node app.js",
+    "build": "tsc"
   }
 }
