@@ -59,14 +59,14 @@ var FPConectaController = /** @class */ (function () {
                             phone: phone,
                             owner_id: "",
                             org_id: "",
-                            visible_to: 1,
+                            visible_to: 3,
                         };
                         return [4 /*yield*/, api_1.default.post('/persons?api_token=8413c3f5faa24d903df4cd63271f59ad1cfe71a7', objPerson)];
                     case 2:
                         respostaPerson = (_b.sent()).data;
                         if (!respostaPerson) return [3 /*break*/, 4];
                         objDeal = {
-                            title: "FP-Evento conecta (TesteDEV)",
+                            title: "FP-Evento conecta",
                             value: 0,
                             currency: 'BRL',
                             user_id: '1063083',
@@ -77,7 +77,7 @@ var FPConectaController = /** @class */ (function () {
                             expected_close_date: null,
                             probability: null,
                             lost_reason: null,
-                            visible_to: '1',
+                            visible_to: '3',
                             add_time: new Date().getHours(),
                         };
                         return [4 /*yield*/, api_1.default.post('/deals?api_token=8413c3f5faa24d903df4cd63271f59ad1cfe71a7', objDeal)];

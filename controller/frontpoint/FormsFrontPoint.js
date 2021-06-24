@@ -59,7 +59,7 @@ var FormsFrontpoint = /** @class */ (function () {
                             phone: phone,
                             owner_id: "",
                             org_id: "",
-                            visible_to: 1,
+                            visible_to: 3,
                             "987eaebd7073b17a262e9c144cf62d770d9b1d1b": cargo
                         };
                         return [4 /*yield*/, api_1.default.post('/persons?api_token=8413c3f5faa24d903df4cd63271f59ad1cfe71a7', objPerson)];
@@ -67,7 +67,7 @@ var FormsFrontpoint = /** @class */ (function () {
                         respostaPerson = (_b.sent()).data;
                         if (!respostaPerson) return [3 /*break*/, 4];
                         objDeal = {
-                            title: "FP-Carreira - TesteDEV",
+                            title: "FP-Carreira",
                             value: 0,
                             currency: 'BRL',
                             user_id: '1063083',
@@ -78,7 +78,7 @@ var FormsFrontpoint = /** @class */ (function () {
                             expected_close_date: null,
                             probability: null,
                             lost_reason: null,
-                            visible_to: '1',
+                            visible_to: '3',
                             add_time: new Date().getHours(),
                         };
                         return [4 /*yield*/, api_1.default.post('/deals?api_token=8413c3f5faa24d903df4cd63271f59ad1cfe71a7', objDeal)];
@@ -111,7 +111,7 @@ var FormsFrontpoint = /** @class */ (function () {
                             phone: phone,
                             owner_id: "",
                             org_id: "",
-                            visible_to: 1,
+                            visible_to: 3,
                             "987eaebd7073b17a262e9c144cf62d770d9b1d1b": linkedin
                         };
                         return [4 /*yield*/, api_1.default.post('/persons?api_token=8413c3f5faa24d903df4cd63271f59ad1cfe71a7', objPerson)];
@@ -119,7 +119,7 @@ var FormsFrontpoint = /** @class */ (function () {
                         respostaPerson = (_b.sent()).data;
                         if (!respostaPerson) return [3 /*break*/, 4];
                         objDeal = {
-                            title: "FP-Reestilização Linkedin - TesteDEV",
+                            title: "FP-Reestilização Linkedin",
                             value: 0,
                             currency: 'BRL',
                             user_id: '1063083',
@@ -130,7 +130,7 @@ var FormsFrontpoint = /** @class */ (function () {
                             expected_close_date: null,
                             probability: null,
                             lost_reason: null,
-                            visible_to: '1',
+                            visible_to: '3',
                             add_time: new Date().getHours(),
                         };
                         return [4 /*yield*/, api_1.default.post('/deals?api_token=8413c3f5faa24d903df4cd63271f59ad1cfe71a7', objDeal)];
@@ -163,7 +163,7 @@ var FormsFrontpoint = /** @class */ (function () {
                             phone: phone,
                             owner_id: "",
                             org_id: "",
-                            visible_to: 1,
+                            visible_to: 3,
                             "5f02a982c2ba476ee53af395323c163272f4b908": assunto,
                             "5715d1988c8249f076041aa7b9482b55c2f4b64d": mensagem // Endereco 2 - Pode usar pra mensagem
                         };
@@ -172,7 +172,7 @@ var FormsFrontpoint = /** @class */ (function () {
                         respostaPerson = (_b.sent()).data;
                         if (!respostaPerson) return [3 /*break*/, 4];
                         objDeal = {
-                            title: "FP-Contato - TesteDEV",
+                            title: "FP-Contato",
                             value: 0,
                             currency: 'BRL',
                             user_id: '1063083',
@@ -183,7 +183,7 @@ var FormsFrontpoint = /** @class */ (function () {
                             expected_close_date: null,
                             probability: null,
                             lost_reason: null,
-                            visible_to: '1',
+                            visible_to: '3',
                             add_time: new Date().getHours(),
                         };
                         return [4 /*yield*/, api_1.default.post('/deals?api_token=8413c3f5faa24d903df4cd63271f59ad1cfe71a7', objDeal)];
@@ -216,7 +216,7 @@ var FormsFrontpoint = /** @class */ (function () {
                             phone: phone,
                             owner_id: "",
                             org_id: "",
-                            visible_to: 1,
+                            visible_to: 3,
                             "987eaebd7073b17a262e9c144cf62d770d9b1d1b": cargo
                         };
                         return [4 /*yield*/, api_1.default.post('/persons?api_token=8413c3f5faa24d903df4cd63271f59ad1cfe71a7', objPerson)];
@@ -224,7 +224,7 @@ var FormsFrontpoint = /** @class */ (function () {
                         respostaPerson = (_b.sent()).data;
                         if (!respostaPerson) return [3 /*break*/, 4];
                         objDeal = {
-                            title: "FP-Negócio - TesteDEV",
+                            title: "FP-Negócio",
                             value: 0,
                             currency: 'BRL',
                             user_id: '1063083',
@@ -235,7 +235,7 @@ var FormsFrontpoint = /** @class */ (function () {
                             expected_close_date: null,
                             probability: null,
                             lost_reason: null,
-                            visible_to: '1',
+                            visible_to: '3',
                             add_time: new Date().getHours(),
                         };
                         return [4 /*yield*/, api_1.default.post('/deals?api_token=8413c3f5faa24d903df4cd63271f59ad1cfe71a7', objDeal)];

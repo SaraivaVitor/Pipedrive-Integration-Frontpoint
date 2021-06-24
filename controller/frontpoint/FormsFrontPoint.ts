@@ -14,7 +14,7 @@ class FormsFrontpoint {
           phone,
           owner_id: "",
           org_id:"",
-          visible_to: 1,
+          visible_to: 3,
           "987eaebd7073b17a262e9c144cf62d770d9b1d1b": cargo
         }
 
@@ -23,7 +23,7 @@ class FormsFrontpoint {
         if(respostaPerson){
 
           const objDeal = {
-            title: "FP-Carreira - TesteDEV",
+            title: "FP-Carreira",
             value: 0,
             currency: 'BRL',
             user_id: '1063083',
@@ -34,7 +34,7 @@ class FormsFrontpoint {
             expected_close_date: null,
             probability: null,
             lost_reason: null,
-            visible_to: '1',
+            visible_to: '3',
             add_time: new Date().getHours(),
           }
   
@@ -63,7 +63,7 @@ class FormsFrontpoint {
         phone,
         owner_id: "",
         org_id:"",
-        visible_to: 1,
+        visible_to: 3,
         "987eaebd7073b17a262e9c144cf62d770d9b1d1b": linkedin
       }
 
@@ -72,7 +72,7 @@ class FormsFrontpoint {
       if(respostaPerson){
 
         const objDeal = {
-          title: "FP-Reestilização Linkedin - TesteDEV",
+          title: "FP-Reestilização Linkedin",
           value: 0,
           currency: 'BRL',
           user_id: '1063083',
@@ -83,7 +83,7 @@ class FormsFrontpoint {
           expected_close_date: null,
           probability: null,
           lost_reason: null,
-          visible_to: '1',
+          visible_to: '3',
           add_time: new Date().getHours(),
         }
 
@@ -112,7 +112,7 @@ class FormsFrontpoint {
         phone,
         owner_id: "",
         org_id:"",
-        visible_to: 1,
+        visible_to: 3,
         "5f02a982c2ba476ee53af395323c163272f4b908": assunto, // Endereco
         "5715d1988c8249f076041aa7b9482b55c2f4b64d": mensagem // Endereco 2 - Pode usar pra mensagem
       }
@@ -122,7 +122,7 @@ class FormsFrontpoint {
       if(respostaPerson){
 
         const objDeal = {
-          title: "FP-Contato - TesteDEV",
+          title: "FP-Contato",
           value: 0,
           currency: 'BRL',
           user_id: '1063083',
@@ -133,7 +133,7 @@ class FormsFrontpoint {
           expected_close_date: null,
           probability: null,
           lost_reason: null,
-          visible_to: '1',
+          visible_to: '3',
           add_time: new Date().getHours(),
         }
 
@@ -162,7 +162,7 @@ class FormsFrontpoint {
           phone,
           owner_id: "",
           org_id:"",
-          visible_to: 1,
+          visible_to: 3,
           "987eaebd7073b17a262e9c144cf62d770d9b1d1b": cargo
         }
 
@@ -171,7 +171,7 @@ class FormsFrontpoint {
         if(respostaPerson){
 
           const objDeal = {
-            title: "FP-Negócio - TesteDEV",
+            title: "FP-Negócio",
             value: 0,
             currency: 'BRL',
             user_id: '1063083',
@@ -182,7 +182,7 @@ class FormsFrontpoint {
             expected_close_date: null,
             probability: null,
             lost_reason: null,
-            visible_to: '1',
+            visible_to: '3',
             add_time: new Date().getHours(),
           }
   

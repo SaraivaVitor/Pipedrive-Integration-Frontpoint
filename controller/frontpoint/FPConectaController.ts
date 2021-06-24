@@ -16,7 +16,7 @@ class FPConectaController {
                 phone,
                 owner_id: "",
                 org_id:"",
-                visible_to: 1,
+                visible_to: 3,
 
             }
 
@@ -36,7 +36,7 @@ class FPConectaController {
                   expected_close_date: null,
                   probability: null,
                   lost_reason: null,
-                  visible_to: '1',
+                  visible_to: '3',
                   add_time: new Date().getHours(),
                 }
         
