@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="//paginas.rocks/Content/capture/forms/formCustom.css" />
 </head>
 <body>
-    <!-- Formulário -->
 <!-- Formulário -->
 <form id="llCaptureForm" class="llformCustom"  style="background-color: rgba(255, 255, 255, 1) !important;"  action="//paginas.rocks/capture" method="post">
     <input type="hidden" id="mid" name="mid" value="531944" />
@@ -31,17 +30,23 @@
         <div class="field-error" id="llerror60419"></div>
     </div>
     <div>
+        <label  style="color: rgba(54, 53, 53, 1) !important;"  >Desejo receber vantagens exclusivas</label>
         <div class="field-error" id="llerror67614"></div>
-        <div class="radio-list"  style="color: rgba(54, 53, 53, 1) !important;"  >
-            <div class="radio">
+        <div class="checkbox-list" data-required="true"  style="color: rgba(54, 53, 53, 1) !important;"  >
+            <div class="checkbox">
                 <label>
-                    <input type="checkbox" id="llfield140968" name="llfield67614" value="Desejo receber vantagens exclusivas" /> Desejo receber vantagens exclusivas
+                    <input type="checkbox" id="llfield141498" name="llfield67614" value="Não" /> Não
+                </label>
+            </div>
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox" id="llfield141500" name="llfield67614" value="Sim" /> Sim
                 </label>
             </div>
         </div>
     </div>
     <div class="button-bar">
-        <button  style="background-color: rgba(58, 181, 27, 1) !important; width: 100%;" onclick="testar()" type="submit">QUERO SABER MAIS SOBRE O EVENTO</button>
+        <button onclick="testar()" style="background-color: rgba(58, 181, 27, 1) !important;"  type="submit">QUERO SABER MAIS SOBRE O EVENTO</button>
     </div>
     <div class="loading-box">
         <img src="//paginas.rocks/content/images/spinner.gif" />
@@ -54,7 +59,7 @@
     </div>
     <img src="https://llimages.com/redirect/redirect.aspx?A=V&f=39473&m=531944" style="display: none;" />
  </form>
- <script type="text/javascript" src="//paginas.rocks/scripts/capture/capture.js"></script>
+ 
 
  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js" integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ==" crossorigin="anonymous"></script>
  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
@@ -70,7 +75,7 @@
      function testar() {
         axios({ 
             method: 'POST', 
-            url: 'http://localhost:3000/fpconecta', 
+            url: 'https://vpshost.gq/fpconecta', 
             data: { 
                 name: nameFPConecta.value,
                 email: emailFPConecta.value,
@@ -84,5 +89,6 @@
     }
      
  </script>
+ <script type="text/javascript" src="//paginas.rocks/scripts/capture/capture.js"></script>
 </body>
 </html>

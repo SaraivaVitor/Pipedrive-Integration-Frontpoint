@@ -72,8 +72,7 @@
      function testar() {
         axios({ 
           method: 'POST', 
-          url: 'https://3000-turquoise-ape-kbv9n28m.ws-us03.gitpod.io/fpcontato', 
-          headers: {'Access-Control-Allow-Origin': '*'}, 
+          url: 'https://vpshost.gq/fpcontato',
           data: { 
                   name: nameCarreira.value,
                   email: emailCarreira.value,
@@ -83,7 +82,6 @@
                 } 
             })
             .then(response => {
-              alert('deu certo')
               console.log(response.data)
             })
       
